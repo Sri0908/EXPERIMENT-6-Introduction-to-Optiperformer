@@ -70,22 +70,36 @@ The system includes:
 
 **Transmission Analysis Across Fiber Lengths**
 
-| S.No | Fiber Length (km) | Optical Power (Watts) | Optical Power (dBm) | Max Q Factor | Min BER | Eye Height | Decision Instant (Max Q / Min BER) |
-|------|-------------------|------------------------|----------------------|--------------|---------|-------------|-------------------------------------|
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
-|      |                   |                        |                      |              |         |             |                                     |
+<img width="1280" height="899" alt="image" src="https://github.com/user-attachments/assets/41a712c7-4ed3-4545-90c9-2bb3845a47c9" />
 
----
 
 ## Graphs
+### a) Simulation of Optical Communication System:
+![exp6-1](https://github.com/user-attachments/assets/e8dd38fb-47e5-403b-9000-bcd0ec9198a4)
 
-*(Insert plots of Optical Power, Q Factor, and BER vs. Fiber Length here)*
+### b) Attenuation - limited fiber length:
+![exp6-2](https://github.com/user-attachments/assets/eb99b27d-5e61-4abb-985e-0cb0f654e98d)
+![exp6-2-1](https://github.com/user-attachments/assets/8b861696-0b05-4e35-adca-b94aa8778865)
 
----
+### c)Dispersion limited fiber length:
+<img width="824" height="1280" alt="image" src="https://github.com/user-attachments/assets/0da077eb-1bb0-49f3-9b8f-e9b73152e197" />
+
+### d)Dispersion compensation:
+<img width="810" height="1280" alt="image" src="https://github.com/user-attachments/assets/ddcab71b-8f06-43a9-adb6-00fc6e23891b" />
+<img width="1600" height="1429" alt="image" src="https://github.com/user-attachments/assets/5cbc75c1-de2d-4e1e-b95a-c7c863f1da5c" />
+
+### e)Gaussian pulse propagation:
+<img width="861" height="1280" alt="image" src="https://github.com/user-attachments/assets/0d27d071-b0e2-4387-be55-c2eb6cd36b8f" />
+
+### f)Receiver sensitivity:
+<img width="1236" height="1600" alt="image" src="https://github.com/user-attachments/assets/8906546e-48e5-48ae-b0dc-18e3e714b439" />
 
 ## RESULT
 
-*(Summarize key findings from simulation and analysis)*
+The optical communication system was successfully simulated using OptiPerformer. As the fiber length increased from 50 km to 150 km, the following trends were observed:
+
+Received optical power decreased due to fiber attenuation.
+Q-factor gradually decreased, indicating signal quality degradation.
+Bit Error Rate (BER) increased with distance, showing higher error probability.
+The eye diagram became more closed at longer fiber lengths, confirming dispersion and noise effects.
+Hence, the simulation verified that optical signal performance deteriorates with increasing fiber length due to attenuation and dispersion losses.
